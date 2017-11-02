@@ -7,7 +7,7 @@
 	"authors": [
 		{
             "name": "Sergii Gamaiunov",
-            "email": "hello@webkadabra.com",
+            "email": "hello@webkadabra.com"
 		}
 	],
     "require": {
@@ -15,7 +15,7 @@
     },
 	"autoload": {
 		"psr-4": {
-			"webkadabra\\bitly\\": ""
+			"webkadabra\\uxassist\\": "src"
 		}
 	}
 }
