@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
 
 class Asset extends AssetBundle
 {
-    public $sourcePath = '@vendor/webkadabra/uxassist/assets';
+    public $sourcePath = '@vendor/webkadabra/yii2-ux-assist/src/assets';
     
     public $js = [
         'js/alpha.js',
