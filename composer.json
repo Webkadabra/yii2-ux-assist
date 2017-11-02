@@ -1,0 +1,21 @@
+{
+	"name": "webkadabra/yii2-bitly",
+	"description": "Simple UX assist",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension","ux","client"],
+	"license": "MIT",
+	"authors": [
+		{
+            "name": "Sergii Gamaiunov",
+            "email": "hello@webkadabra.com",
+		}
+	],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"webkadabra\\bitly\\": ""
+		}
+	}
+}
