@@ -32,8 +32,7 @@ class Asset extends AssetBundle
      */
     public static function register($view)
     {
-        if ($this->autorun == true)
-			$view->registerJs('alpha.ux.init();');
+        $view->registerJs('alpha.ux.init();');
         return parent::register($view);
     }
 }
