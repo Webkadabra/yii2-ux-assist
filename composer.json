@@ -8,8 +8,7 @@
     "minimum-stability": "stable",
 	"authors": [
 		{
-            "name": "Sergii Gamaiunov",
-            "email": "hello@webkadabra.com"
+            "name": "Sergii Gama"
 		}
 	],
     "require": {
