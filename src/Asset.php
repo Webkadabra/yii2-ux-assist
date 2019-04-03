@@ -13,16 +13,16 @@ use yii\web\AssetBundle;
 class Asset extends AssetBundle
 {
     public $sourcePath = '@vendor/webkadabra/yii2-ux-assist/src/assets';
-    
+
     public $js = [
         'js/alpha.js',
     ];
-    
+
     public $depends = [
-        'yii\jquery\magnificpopup\MagnificPopupAsset',
+        'lo\widgets\magnific\MagnificPopupAsset',
         'yii\bootstrap\BootstrapAsset',
     ];
-	
+
 	public $autorun = true;
 
     /**

@@ -4,7 +4,7 @@
 	"type": "yii2-extension",
 	"keywords": ["yii2","extension","ux","client"],
 	"license": "MIT",
-	"version": "0.0.1",
+	"version": "1.0.1",
     "minimum-stability": "stable",
 	"authors": [
 		{
@@ -13,7 +13,7 @@
 	],
     "require": {
         "yiisoft/yii2": "*",
-		"ivan-chkv/yii2-jquery-magnific-popup": "^2.0"
+		"loveorigami/yii2-magnific-popup": "@dev"
     },
 	"autoload": {
 		"psr-4": {
